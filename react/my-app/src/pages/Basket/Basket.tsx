@@ -154,13 +154,6 @@ const Basket = () => {
 
                             {isTimed ? (
                                 <div className='timed'>
-                                    <h3>Оберіть дату доставки</h3>
-                                    <select className='dropdown'>                                       
-                                        <option selected value="city"><h2>счерез 2 години</h2></option>
-                                        <option value="city"><h2>через 4 години</h2></option>
-                                        <option value="city"><h2>через 6 годин</h2></option>
-                                    </select>
-                                    
                                     <h3>Часовий інтервал</h3>
                                 </div>    
                                 ) : (

@@ -1,14 +1,13 @@
 import React, {FC} from 'react'
 import './style.scss'
 
-//Опис пропсів компонента:
+
 interface IPaginationProps {
     currentSlide: number,
     toggleSliderChange: (param: number) => void;
 }
 
-//FC - функціональний компонент
-//<Interface> - властивості(пропси) цього компонента
+
 const SliderPagination: FC<IPaginationProps> = (props) => {
 
     const generateButtons = () => {

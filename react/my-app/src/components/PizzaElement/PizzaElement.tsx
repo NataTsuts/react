@@ -22,7 +22,6 @@ const PizzaElement: FC<IPizzaElement> = ({link, data}) => {
         setisAddIngr(bort)
     };
 
-    //function that dispatches actions
     const dispatch = useDispatch()
 
     const addToBasket = () => {

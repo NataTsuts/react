@@ -20,22 +20,15 @@ const PizzaDetailed = () => {
             }}))
         }
     }
-    // const params = useParams()
-    // const id = params.id
 
-    //id это имя_параметра, которое мы указали в Route после :
-    //Если бы мы в Route указали pizza_id, то доставали бы соответсвенное название
-    //const {pizza_id} = useParams()
-
-    //useParams используется для взятия параметров из url, которые мы определяем в Route
     const {id} = useParams()
 
     const [pizza, setPizza] = useState<IPizza | null>(null)
     const [hasError, setHasError] = useState(false)
 
-    //если бы шел запрос на сервер
+
     useEffect(()=>{
-        //тут делаешь axios запрос на сервер c id пиццы, которая пришла в url, чтобы получить данные о пицце
+
         if (id){
             if (+id > 6 || +id < 0){
                 setHasError(true)
@@ -67,7 +60,7 @@ const PizzaDetailed = () => {
         setCount(count > 1 ? count - 1 : 1)
     }
 
-    //Ожидание пиццы
+
     if (pizza === null) {
         return (
             <div>
@@ -76,7 +69,7 @@ const PizzaDetailed = () => {
         )
     }
 
-    //Концепт перехвата ошибки с сервера
+
     if (hasError){
         return (
             <div>
@@ -88,7 +81,7 @@ const PizzaDetailed = () => {
     return (
         <div className='kaprichoza'>
             <div className='product'>
-                {/*проверка на существование обьекта, который пришел с сервера*/}
+        
                 <img src={pizza.image}
                      alt=""/>
             </div>

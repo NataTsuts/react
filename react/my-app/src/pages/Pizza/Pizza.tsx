@@ -5,14 +5,13 @@ import './style.scss'
 import {IPizza} from "../../interface/IPizza";
 
 const Pizza = () => {
-//console.log(pizzaJSON[0])
 
     const generatePizzaElement = (data: IPizza[]) => {
         const pizzaArray = []
         for (let i = 0; i < data.length; i++) {
             let pizza = data[i]
             pizzaArray.push(
-                //ипользуем pizza.id для генерации линки на страничку детальной пиццы и для key
+                
                 <PizzaElement
                     key={pizza.id}
                     data={pizza}

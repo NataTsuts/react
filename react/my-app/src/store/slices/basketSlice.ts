@@ -5,7 +5,7 @@ import {IBasketInterface} from "../../interface/IBasketInterface";
 export interface BasketState {
     pizzas: IBasketInterface[]
 }
-//Pizza - get pizzas from localstorage if EXIST else empt array
+
 const initialState: BasketState = {
     //@ts-ignore
     pizzas: JSON.parse(localStorage.getItem('pizzaInBasket') || '[]')
@@ -17,7 +17,7 @@ export const counterSlice = createSlice({
     initialState,
     reducers: {
         addPizza: (state,action: PayloadAction<IBasketInterface>) => {
-            //action payload is the variable that you dispatched (pizza)
+          
             state.pizzas = [...state.pizzas, action.payload]
             localStorage.setItem('pizzaInBasket', JSON.stringify(state.pizzas))
         },
@@ -66,7 +66,7 @@ export const counterSlice = createSlice({
     },
 })
 
-// Action creators are generated for each case reducer function
+
 export const { addPizza, removePizza, addAmount, removeAmount } = counterSlice.actions
 
 export default counterSlice.reducer

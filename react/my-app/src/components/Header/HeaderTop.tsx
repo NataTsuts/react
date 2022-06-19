@@ -27,7 +27,7 @@ const HeaderTop = () => {
                 <h3>Пн - Нд з 09:00 по 21:00 </h3>
             </div>
             <div className='Header Menu'>
-                <Link to='/'>Популярне</Link> {/*С помощью Link ты меняешь URL*/}
+                <Link to='/'>Популярне</Link> 
                 <Link to='/'>Доставка і оплата</Link>
                 <Link to='/'>Відгуки</Link>
                 <Link to='/'>Франшиза</Link>

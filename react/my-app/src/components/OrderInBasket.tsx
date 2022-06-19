@@ -22,7 +22,7 @@ const OrderInBasket: FC<IProps>  = ({pizza}) => {
     }
     
        return (
-                //Pizza - create component for display pizza in basket with ability to remove pizza from basket
+               
                 <div className='pizza-in-basket'>
                 <img src={image}/> 
                 <div className='pizza-name-size'>

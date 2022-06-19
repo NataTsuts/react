@@ -1,0 +1,146 @@
+.wok-detailed {
+    display: flex;
+    margin: 60px;
+
+    h3 {
+        font-size: 17px;
+        color: grey;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .wok-img {
+        width: 550px;
+        height: 530px;
+        overflow: hidden;
+        cursor: pointer;
+        margin-right: 25px;
+       
+        img {
+            width: 540px;
+        }
+
+        img:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.0800);
+        }
+
+     
+    }
+
+    .order-wok {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+
+        .btn-number {
+            display: flex;
+            flex-direction: row;
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            border-color: rgb(182, 180, 180);
+            margin: 7px 17px 20px 30px;
+            cursor: pointer;
+              
+    
+                .bi {
+                    width: 20px;
+                    height: 15px;
+                }
+    
+                .bi-caret-up-fill {
+                    position: absolute;
+                    top:10px;
+                    left: 10px;
+                }
+    
+                .bi-caret-down-fill {
+                    position: absolute;
+                    top:10px;
+                    right: 10px;
+                }
+    
+                .plus {
+                    position: relative;
+                    background-color: rgb(243, 243, 243);
+                    border-color: rgb(173, 171, 171);
+                    padding: 15px 20px;
+                    border-width: 1px;
+                }
+    
+                .minus {
+                    position: relative;
+                    background-color: rgb(243, 243, 243);
+                    border-color: rgb(173, 171, 171);
+                    padding: 15px 20px;
+                    border-width: 1px;
+                }
+    
+                .count {
+                    position: relative;
+                    background-color: rgb(243, 243, 243);
+                    border-color: rgb(173, 171, 171);
+                    padding: 15px 20px;
+                    border-width: 1px;
+    
+                    h4 {
+                        position: absolute;
+                        font-size: 20px;
+                        top: 4px;
+                        left: 14px;
+                    }
+                }
+
+                
+        }
+
+        .btn-order {
+            background-color: red;
+            color: white;
+            border-color: red;
+            padding: 7px 15px;
+            margin: 0px 0px 0px 10px;
+        }
+    
+        .btn-order:hover {
+            background-color: white;
+            color: red;
+        }
+
+        .btn-fast-order {
+            background-color: white;
+            color: red;
+            border-color: red;
+            padding: 7px 15px;
+            margin: 0px 0px 0px 10px;
+        }
+
+        .btn-fast-order:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .number-price {
+            display: flex;
+            flex-direction: row;
+    
+            .price {
+                margin-left: 150px;
+                color: red;
+            }
+        }
+    
+    }
+
+    
+        
+    
+}

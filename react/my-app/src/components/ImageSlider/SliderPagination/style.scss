@@ -1,0 +1,15 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .step {
+        cursor: pointer;
+        padding-left: 15px;
+        color: rgb(182, 180, 180);
+    }
+
+    .selected {
+        color: #ffff;
+    }
+}

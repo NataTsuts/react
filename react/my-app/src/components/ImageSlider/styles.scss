@@ -1,0 +1,58 @@
+.Slider {
+    margin-top: 30px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-arrow {
+        position: absolute;
+        top: 50%;
+        right: 32px;
+        font-size: 3rem;
+        color: #fff;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 50%;
+        left: 32px;
+        font-size: 3rem;
+        color: #fff;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .slide {
+        opacity: 0;
+        transition-duration: 2s ease;
+    }
+
+    .slide.active {
+        opacity: 1;
+        transition-duration: 2s;
+        transform: scale(1.008);
+    }
+ 
+    .pagination {
+        position: absolute;
+        bottom: 25px;
+        left: auto;
+    }
+
+      
+ 
+    
+   
+}

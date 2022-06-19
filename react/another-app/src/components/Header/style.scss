@@ -1,0 +1,178 @@
+.Header {
+
+    .Main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:70px;
+
+        .btn {
+          padding: 10px 25px;
+          border-radius: 100px;
+          margin: 10px;
+        }
+  
+        .btn-link:hover {
+          color: white;
+        }
+  
+        a {
+          margin: 20px 8px 20px 8px;
+          font-size: 20px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-decoration: none;
+          color: #000;
+        }
+      
+       
+        .bag-icon {
+          background-color: red;
+          width: 80px;
+          height: 70px;
+
+          .bi-bag {
+            margin: 15px;
+            height: 25px;
+            width: 25px;
+            color: white;
+        }
+
+        }
+
+        .Home {
+          display: flex;
+          flex-direction: row;
+          
+            img {
+                margin: 10px;
+                width: 100px;
+            }
+
+            .bi-list {
+                cursor: pointer;
+                width: 35px;
+                height: 35px;
+            }
+            
+            .bi-list:hover {
+                color: red;
+            }
+        }
+       
+        .menu {
+            margin-top: 20px;
+
+            a:hover {
+                color: red;
+            }
+        }
+
+     
+    }
+  
+    .Top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: black; 
+      color: white;
+      width: 100%;
+      height: 50px;
+  
+       h1 {
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            font-weight: lighter;
+        }
+
+        h2 {
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            font-weight: lighter;
+        }
+
+        a {
+            color: red;
+            text-decoration:underline;
+        }
+
+        a:hover {
+            color: white;
+        }
+        
+  
+        h1:hover {
+          cursor: pointer;
+          color: red;
+        }
+
+      .Delivery {
+        margin-top: 15px;
+      }
+      .Locations {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+      }
+
+      .work {
+        display: flex;
+        flex-direction: row;
+        font-size: 13px;
+
+        .bi-phone {
+            margin-right: 25px;
+            height: 20px;
+            width: 20px;
+            color: white;
+        }
+
+        .work-number {
+            display: flex;
+            flex-direction: row;
+            margin-right: 10px;
+            margin-top: 12px;
+        }
+        .worktime {
+            width: 100px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+        }
+      }
+   
+  
+        .UserActions {
+            display: flex;
+            flex-direction: row;
+            margin: 12px 15px 10px 15px;
+            justify-content: space-between;
+            cursor: pointer;
+
+            .bi {
+                margin-right: 25px;
+                height: 20px;
+                width: 20px;
+                color: white;
+            }
+
+            .bi:hover {
+                color: red;
+            }
+            
+        }
+   
+    }
+} 
+  
+
+
+  
+
+ 
+  
+  
+  

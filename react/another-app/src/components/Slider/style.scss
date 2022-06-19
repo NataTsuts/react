@@ -1,0 +1,116 @@
+.Slider {
+    margin-top: 30px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+    .image {
+        width: 1400px;
+        height: 500px;
+        z-index: -1;
+    }
+
+    .right-arrow {
+        height: 30px;
+        border-color: white;
+        position: absolute;
+        right: 145px;
+        font-size: 3rem;
+        color: white;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .left-arrow {
+        height: 30px;
+        border-color: white;
+        position: absolute;
+        top: 30px;
+        right: 145px;
+        font-size: 3rem;
+        color: white;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .bi {
+        width: 20px;
+    }
+
+    .slide {
+        opacity: 0;
+        transition-duration: 2s ease;
+    }
+
+    .slide.active {
+        opacity: 1;
+        transition-duration: 2s;
+        transform: scale(1.008);
+    }
+ 
+    .pagination {
+        position: absolute;
+        bottom: 25px;
+        left: auto;
+    }
+
+      
+  .title-slider {
+    color: white;
+    position: absolute;
+    right: 45px;
+    bottom: 85px;
+    font-size: 50px;
+    width: 500px;
+  }
+
+  .description {
+    color: white;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    width: 500px;
+  }
+
+  .red-circle {
+    position: absolute;
+    background-color: rgb(211, 32, 32);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    right: 50px;
+    bottom: 40px;
+    cursor: pointer;
+    
+
+    img {
+        position: relative;
+        width: 150px;
+        border-color: black;
+    }
+
+    h2 {
+        position: absolute;
+        top:60px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+
+    img:hover{
+        transform: translate(-20px, -10px);
+        transition: 0.8s;
+    }
+  }
+    
+   
+}

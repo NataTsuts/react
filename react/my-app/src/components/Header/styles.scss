@@ -1,0 +1,194 @@
+.Header {
+
+    .Main {
+        display: flex;
+       justify-content: space-around;
+        width: 100%;
+    
+        .LogoHome {
+          margin-top: 20px;
+        }
+
+        .list-food {
+          display: flex;
+          flex-direction: row;
+        }
+  
+        .btn {
+          padding: 10px 25px;
+          border-radius: 100px;
+          margin: 10px;
+        }
+  
+        .btn-link:hover {
+          color: white;
+        }
+  
+        a {
+          margin: 20px 8px 20px 8px;
+          font-size: 20px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-decoration: none;
+          color: #000;
+        }
+      
+        .bi-basket {
+          margin-left: 30px;
+          height: 25px;
+          width: 25px;
+          color: rgb(184, 50, 50);
+        }
+
+        .basket-icon {
+          display: flex;
+          flex-direction: row;
+        }
+
+        .functions {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 20px;
+          margin: 25px 5px 0px 10px;
+        }
+
+        .func-amount {
+          position: relative;
+          background-color: green;
+          border-radius: 50px;
+          width: 50px;
+          height: 40px;
+          width: 40px;
+
+          h3 {
+            position: absolute;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+          }
+        }
+       
+      }
+  
+    .Top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgba(229, 229, 229, 0.4); 
+      width: 100%;
+  
+      a {
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        margin: 15px;
+        color: #000;
+      } 
+  
+      .Menu {
+        margin-top: 20px;
+      }
+  
+      .Locations {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+      
+        
+        h1 {
+          margin-right: 25px;
+          font-size: 15px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #000;
+          font-weight: lighter;
+        }
+  
+        h3 {
+          margin-top: 15px;
+          font-size: 17px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(182, 180, 180);
+          font-weight: lighter;
+        }
+  
+  
+        h1:hover {
+          cursor: pointer;
+          color: green;
+        }
+      
+      }
+      }
+  
+      .UserActions {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+  
+        h2 {
+          font-size: 18px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(182, 180, 180);
+          font-weight: lighter;
+        }
+  
+        h2:hover {
+          cursor: pointer;
+          color: green;
+        }
+      }
+    
+  
+       a:hover {
+        cursor: pointer;
+        color: green;
+      }
+    
+  
+    
+      .Search {
+        border: inherit;
+        cursor: pointer;
+        background-color: inherit;
+      }
+    
+  
+    
+  } 
+  
+  .bi-geo-alt, .bi-telephone-outbound {
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+    color: green;
+  }
+  .bi-search {
+    margin-bottom: 6px;
+    height: 28px;
+    width: 28px;
+    color: rgb(182, 180, 180);
+  }
+  
+  .bi-person {
+    margin: 10px;
+    height: 37px;
+    width: 37px;
+    color: rgb(182, 180, 180);
+  }
+  
+  .bi-person:hover {
+    color: green;
+  }
+  
+  .bi-search:hover {
+    color: green;
+  }
+
+
+
+
+
+  
+
+ 
+  
+  
+  

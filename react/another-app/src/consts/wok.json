@@ -1,0 +1,75 @@
+[
+    {
+        "id": 0,
+        "name": "Баклажани з куркою в кокосовому молоці",
+        "description": "курятина, баклажани, банан, черрі, арахіс, кокосове молоко, соус Sweet Chilli",
+        "image": "https://yoki.ua/wp-content/uploads/2022/06/24634eb8-79a0-4c28-a138-e0b3a0aa42e3-428x428.webp",
+        "weight": 440,
+        "price": 190
+    },
+
+    {
+        "id": 1,
+        "name": "Кабачок-лосось в соусі Теріякі",
+        "description": "кабачок, філе лосося, соус теріякі, соус Устричний, кунжут, часник",
+        "image": "https://yoki.ua/wp-content/uploads/2022/05/92a084c1-0bbb-488e-b913-42aec0aed894-428x428.webp",
+        "weight": 450,
+        "price": 320
+      },
+      {
+        "id": 2,
+        "name": "Креветки в темпурі",
+        "description": "креветка тигрова, соус",
+        "image": "https://yoki.ua/wp-content/uploads/2022/03/9d2decc5-0e91-499c-976a-7c406cf507c1-428x428.webp",
+        "weight": 180,
+        "price": 170
+      },
+      {
+        "id": 3,
+        "name": "Локшина WOK фунчоза",
+        "description": "рисова локшина, яйце, овочі, соус Теріякі, тогораши",
+        "image": "https://yoki.ua/wp-content/uploads/2022/06/c42fbab3-eaf6-4fc2-a68c-9382e9fc711d-428x428.webp",
+        "weight": 190,
+        "price": 190
+      },
+      {
+        "id": 4,
+        "name": "Локшина WOK яєчна",
+        "description": "Яєчна локшина, яйце, овочі, соус Теріякі, тогораши",
+        "image": "https://yoki.ua/wp-content/uploads/2022/06/d999824e-c016-44f6-a90b-759636af7dbc-428x428.webp",
+        "weight": 190,
+        "price":190
+      },
+      {
+        "id": 5,
+        "name": "Рис WOK",
+        "description": "Рис, яйце, гриб шиїтаке, овочі, соус Хойсін, кунжут мікс",
+        "image": "https://yoki.ua/wp-content/uploads/2022/06/6e88bccc-c412-49bf-83b0-1eadcd9cc796-428x428.webp",
+        "weight": 220,
+        "price": 190
+      },
+      {
+        "id": 6,
+        "name": "Темпура",
+        "description": "кальмар, креветка, лосось, шампіньйони, перець болгарський, корінь лотоса, ікра масаго, соус Sweet Peanut",
+        "image": "https://yoki.ua/wp-content/uploads/2021/11/e9e523ce-7f85-485b-8a70-da7bc2c7a19c-428x428.webp",
+        "weight": 520,
+        "price": 420
+      },
+      {
+        "id": 7,
+        "name": "Курка в кисло-солодкому соусі",
+        "description": "курятина, соус Sweet Chilli, рис, кунжут",
+        "image": "https://yoki.ua/wp-content/uploads/2022/03/ba32b128-89c7-409c-b72f-6635295c9216-428x428.webp",
+        "weight": 260,
+        "price": 160
+      },
+      {
+        "id": 8,
+        "name": "Якіторі з курятиною",
+        "description": "Картопля, курятина, cоус Томатний",
+        "image": "https://yoki.ua/wp-content/uploads/2022/03/eeeb88dc-1d1d-429d-af3f-a301c8071089-428x428.webp",
+        "weight": 240,
+        "price": 150
+      }
+]

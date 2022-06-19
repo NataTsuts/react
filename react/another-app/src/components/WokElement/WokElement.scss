@@ -1,0 +1,112 @@
+.wok-element {
+    position: relative;
+    width: 420px;
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        font-size: 17px;
+    }
+}
+
+
+.order {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(240, 236, 236);
+    margin-bottom: 15px;
+    width: 420px;
+    height: 50px;
+    overflow: hidden;
+
+    .btn-number {
+        display: flex;
+        flex-direction: row;
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+        border-color: rgb(182, 180, 180);
+        margin: 0px 17px 20px 30px;
+        cursor: pointer;
+
+        .plus-minus {
+            position: absolute;
+            bottom: 1px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          
+
+            .bi {
+                width: 12px;
+                height: 10px;
+            }
+
+            .plus {
+                background-color: inherit;
+                border-color: rgb(173, 171, 171);
+                padding: 0px 4px;
+                border-width: 1px;
+            }
+
+            .minus {
+                background-color: inherit;
+                border-color: rgb(173, 171, 171);
+                padding: 0px 4px;
+                border-width: 1px;
+            }
+        }
+
+        .count {
+            position: absolute;
+            font-size: 20px;
+            left:10px;
+            bottom: 10px;
+        }
+    }
+
+    .btn-order {
+        background-color: red;
+        color: white;
+        border-color: red;
+        padding: 7px 15px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .btn-order:hover {
+        background-color: white;
+        color: red;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+.number-price {
+    display: flex;
+    flex-direction: row;
+
+    .price {
+        margin: 10px;
+    }
+}
+
+.name-weight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .weight {
+        margin: 5px;
+    }
+}
+

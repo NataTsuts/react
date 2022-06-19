@@ -1,0 +1,101 @@
+
+[
+  {
+    "id": 0,
+    "name": "Капрічоза",
+    "description": "Основа, томатний соус, сир моцарелла, гриби, салямі, шинка, помідори",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/kaprichoza-1.png",
+    "weight": {
+      "small": 550,
+      "big": 860
+    },
+    "price": {
+      "small": 183,
+      "big": 274
+    }
+  },
+  {
+    "id": 1,
+    "name": "Пронто",
+    "description": "Основа, томатний соус, сир моцарелла, салямі, курка, шинка, бекон, помідори",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/pronto.png",
+    "weight": {
+      "small": 600,
+      "big": 880
+    },
+    "price": {
+      "small": 199,
+      "big": 312
+    }
+  },
+  {
+    "id": 2,
+    "name": "Гавайська",
+    "description": "Вершкова основа, сир моцарелла, куряче філе, кукурудза, ананаси, маслини",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/gavajska.png",
+    "weight": {
+      "small": 480,
+      "big": 680
+    },
+    "price": {
+      "small": 191,
+      "big": 289
+    }
+  },
+  {
+    "id": 3,
+    "name": "Козацька",
+    "description": "Основа, томатний соус, сир моцарелла, салямі, шинка, мисливські, маринований огірок, цибуля, чілі",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/kozaczka.png",
+    "weight": {
+      "small": 545,
+      "big": 880
+    },
+    "price": {
+      "small": 178,
+      "big": 274
+    }
+  },
+  {
+    "id": 4,
+    "name": "4 Сезони",
+    "description": "Основа, томатний соус, сир моцарелла, папероні, гриби, кукурудза, шинка",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/4-sezony.png",
+    "weight": {
+      "small": 500,
+      "big": 850
+    },
+    "price": {
+      "small": 172,
+      "big": 259
+    }
+  },
+  {
+    "id": 5,
+    "name": "Аморе",
+    "description": "Вершкова основа, сир моцарелла, курка, кукурудза, черрі, пармезан, рукола",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/amore.png",
+    "weight": {
+      "small": 560,
+      "big": 840
+    },
+    "price": {
+      "small": 183,
+      "big": 274
+    }
+  },
+  {
+    "id": 6,
+    "name": "Піца з грушею",
+    "description": "Вершкова основа, сир моцарелла, груша, сир дор-блю, горіхи",
+    "image": "https://prontopizza.ua/wp-content/uploads/2021/07/z-grusheyu-2.png",
+    "weight": {
+      "small": 460,
+      "big": 750
+    },
+    "price": {
+      "small": 189,
+      "big": 279
+    }
+  }
+]
